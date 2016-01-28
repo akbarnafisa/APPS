@@ -1,0 +1,172 @@
+/* latin-ext */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(https://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Lato Light"), local("Lato-Light"), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin-ext */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Lato Regular"), local("Lato-Regular"), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin-ext */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(https://fonts.gstatic.com/s/lato/v11/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Lato Bold"), local("Lato-Bold"), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin-ext */
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(https://fonts.gstatic.com/s/lato/v11/YMOYVM-eg6Qs9YzV9OSqZfesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Lato Italic"), local("Lato-Italic"), url(https://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* latin-ext */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url(https://fonts.gstatic.com/s/lato/v11/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Lato Black"), local("Lato-Black"), url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+body {
+  margin: 0; }
+
+* {
+  text-shadow: 0 0 0 transparent !important; }
+
+#Profile .BodyWrapper {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  background-image: url("/src/img/city.jpg");
+  background-size: cover;
+  background-position: center; }
+  #Profile .BodyWrapper .main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); }
+    #Profile .BodyWrapper .main .profilPic {
+      width: 100px;
+      height: 100px;
+      padding-bottom: 2vh; }
+      #Profile .BodyWrapper .main .profilPic .profilPicWrapper {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden; }
+        #Profile .BodyWrapper .main .profilPic .profilPicWrapper img {
+          width: 100%;
+          height: 100%; }
+    #Profile .BodyWrapper .main .profileDiscription {
+      text-align: center;
+      padding-bottom: 9vh; }
+      #Profile .BodyWrapper .main .profileDiscription .nameUser {
+        color: #f65a81;
+        font-weight: 900;
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-bottom: 0.8vh;
+        text-transform: uppercase; }
+      #Profile .BodyWrapper .main .profileDiscription .discriptionUser {
+        color: whitesmoke;
+        font-size: 13px;
+        letter-spacing: 0.4px; }
+      #Profile .BodyWrapper .main .profileDiscription .websiteUser {
+        padding-top: 0.8vh; }
+        #Profile .BodyWrapper .main .profileDiscription .websiteUser a {
+          color: whitesmoke;
+          font-size: 13px;
+          letter-spacing: 0.4px;
+          font-weight: 900;
+          text-decoration: none; }
+    #Profile .BodyWrapper .main .hireMe {
+      width: 150px;
+      height: 50px;
+      background-color: #F5426F;
+      border-radius: 4%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      font-weight: 300;
+      margin-bottom: 18vh; }
+      #Profile .BodyWrapper .main .hireMe a {
+        padding: 15px 35px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: 700; }
+      #Profile .BodyWrapper .main .hireMe:hover {
+        background-color: #F2124A; }
+
+.btn-active {
+  border-top: 3px solid #F2124A; }
+  .btn-active a {
+    color: #F2124A !important; }
+
+.profileTabs {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0.2); }
+  .profileTabs .button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; }
+    .profileTabs .button a {
+      font-family: "Lato", sans-serif;
+      text-decoration: none;
+      color: #F5426F;
+      padding: 40%;
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
