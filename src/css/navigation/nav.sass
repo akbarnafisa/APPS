@@ -1,0 +1,106 @@
+.nav-focused
+	background : #f36 !important
+	i
+		color : white
+#container
+	
+	box-sizing: border-box
+	-moz-box-sizing: border-box
+	-webkit-transition: -webkit-transform ease 250ms
+	-moz-transition: -webkit-transform ease 250ms
+	-ms-transition: -webkit-transform ease 250ms
+	-o-transition: -webkit-transform ease 250ms
+	transition: -webkit-transform ease 250ms
+	-webkit-transition: transform ease 250ms
+	-moz-transition: transform ease 250ms
+	-ms-transition: transform ease 250ms
+	-o-transition: transform ease 250ms
+	transition: transform ease 250ms
+
+body 
+	overflow-x: hidden
+.nav-inner-wrapper
+	height : 100%
+	.nav-items
+		height : 16.66666667%
+		width : 100px
+		background : $black
+		border-bottom: 1px solid black
+
+		&:nth-child(6)
+			transform: rotate(180deg)
+			
+
+		i 
+			font-size: 40px
+			display: flex
+			flex-direction: column
+			justify-content: center
+			align-items: center
+			height: 100%
+
+.nav-header
+	height : 44px
+	width : 100%
+	position : fixed
+	z-index : 5
+	top : 0
+	left : 0
+	background : #f36
+
+	.nav-burger
+		width: 40px
+		height : 30px
+		overflow : hidden
+		position : relative
+		margin : 11px
+		box-sizing: border-box
+		-moz-box-sizing: border-box
+		span
+			width: 100%
+			height: 3px
+			background : $black
+			position : absolute
+			
+			&:nth-child(1)
+				top: 0px
+			&:nth-child(2)
+				top: 10px
+			&:nth-child(3)
+				top: 20px
+
+
+.left
+	position: absolute 
+	background: $black
+	height: 100%
+	z-index: 10
+	top: 0
+	width: 100px
+	transform: translateX(-100px)
+
+.visible
+	transform: translateX(100px)
+
+	.menu-item 
+		float: left
+		width: 100%
+		margin: 0
+		padding: 10px 15px
+		border-bottom: solid 1px #555
+		cursor: pointer
+		box-sizing: border-box
+		-moz-box-sizing: border-box
+		color: #B0B0B0
+
+	.menu-item:hover 
+		color: #F0F0F0
+
+
+
+
+
+
+
+
+

@@ -106,7 +106,7 @@ body {
       text-align: center;
       padding-bottom: 9vh; }
       #Profile .BodyWrapper .main .profileDiscription .nameUser {
-        color: #f65a81;
+        color: #ff4d79;
         font-weight: 900;
         font-size: 22px;
         letter-spacing: 1px;
@@ -127,7 +127,7 @@ body {
     #Profile .BodyWrapper .main .hireMe {
       width: 150px;
       height: 50px;
-      background-color: #F5426F;
+      background-color: #f36;
       border-radius: 4%;
       display: flex;
       align-items: center;
@@ -165,8 +165,99 @@ body {
     .profileTabs .button a {
       font-family: "Lato", sans-serif;
       text-decoration: none;
-      color: #F5426F;
+      color: #f36;
       padding: 40%;
       cursor: pointer; }
+
+.nav-focused {
+  background: #f36 !important; }
+  .nav-focused i {
+    color: white; }
+
+#container {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-transition: -webkit-transform ease 250ms;
+  -moz-transition: -webkit-transform ease 250ms;
+  -ms-transition: -webkit-transform ease 250ms;
+  -o-transition: -webkit-transform ease 250ms;
+  transition: -webkit-transform ease 250ms;
+  -webkit-transition: transform ease 250ms;
+  -moz-transition: transform ease 250ms;
+  -ms-transition: transform ease 250ms;
+  -o-transition: transform ease 250ms;
+  transition: transform ease 250ms; }
+
+body {
+  overflow-x: hidden; }
+
+.nav-inner-wrapper {
+  height: 100%; }
+  .nav-inner-wrapper .nav-items {
+    height: 16.66667%;
+    width: 100px;
+    background: #2B2B2B;
+    border-bottom: 1px solid black; }
+    .nav-inner-wrapper .nav-items:nth-child(6) {
+      transform: rotate(180deg); }
+    .nav-inner-wrapper .nav-items i {
+      font-size: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%; }
+
+.nav-header {
+  height: 44px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background: #f36; }
+  .nav-header .nav-burger {
+    width: 40px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    margin: 11px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; }
+    .nav-header .nav-burger span {
+      width: 100%;
+      height: 3px;
+      background: #2B2B2B;
+      position: absolute; }
+      .nav-header .nav-burger span:nth-child(1) {
+        top: 0px; }
+      .nav-header .nav-burger span:nth-child(2) {
+        top: 10px; }
+      .nav-header .nav-burger span:nth-child(3) {
+        top: 20px; }
+
+.left {
+  position: absolute;
+  background: #2B2B2B;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  width: 100px;
+  transform: translateX(-100px); }
+
+.visible {
+  transform: translateX(100px); }
+  .visible .menu-item {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 10px 15px;
+    border-bottom: solid 1px #555;
+    cursor: pointer;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    color: #B0B0B0; }
+  .visible .menu-item:hover {
+    color: #F0F0F0; }
 
 /*# sourceMappingURL=main.css.map */
